@@ -1,16 +1,16 @@
 let x = '';
 
 for(i = 0; i <= 5 ; i++) {
-    for (k = 5; k >= i; k--) {
+    for (let k = 5; k >= i; k--) {
         x += ' ';
     }
-    for(j = 1; j <= i; j++) {
+    for(let j = 1; j <= i; j++) {
        x += '#';
     }
-    for (k = 0; k <= 0 ; k++ ) {
+    for (let l = 0; l <= 0 ; l++ ) {
         x += ' ';
     }
-    for(m = 1; m <= i; m++){
+    for(let m = 1; m <= i; m++){
         x += '#';
     }
     x += '\n';
