@@ -48,7 +48,7 @@ dugmePoruci2.addEventListener('click', () => {
 
 dugmeOdmahP1.addEventListener('click', () =>{
     if(brojac!==0){
-        paragrafOdmah.textContent='Narucili se ' + brojac + ' pizza. Danaslji datum i vreme: ' + `${(new Date()).getDay()}-${(new Date()).getMonth()}-${(new Date()).getFullYear()} ${(new Date()).getHours()}:${(new Date()).getMinutes()}`
+        paragrafOdmah.textContent='Narucili se ' + brojac + ' pizza. Danaslji datum i vreme: ' + `${(new Date()).getDate()}-${(new Date()).getMonth()}-${(new Date()).getFullYear()} ${(new Date()).getHours()}:${(new Date()).getMinutes()}`
         brojac = 0
         paragrafPoruci.textContent= brojac
     } else{
