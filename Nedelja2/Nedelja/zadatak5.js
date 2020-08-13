@@ -1,6 +1,6 @@
 let x = '';
 
-for(i = 0; i <= 5 ; i++) {
+for(let i = 0; i <= 5 ; i++) {
     for (let k = 5; k >= i; k--) {
         x += ' ';
     }

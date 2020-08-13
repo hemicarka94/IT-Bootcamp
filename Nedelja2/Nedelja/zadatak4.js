@@ -1,10 +1,10 @@
 let x = '';
 
-for(i = 0; i <= 5 ; i++) {
-    for (k = 5; k >= i; k--) {
+for(let i = 0; i <= 5 ; i++) {
+    for (let k = 5; k >= i; k--) {
         x += ' ';
     }
-    for(j = 1; j <= i; j++) {
+    for(let j = 1; j <= i; j++) {
        x += '#';
     }
     x += '\n';

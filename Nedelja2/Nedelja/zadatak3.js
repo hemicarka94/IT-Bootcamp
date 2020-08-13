@@ -1,9 +1,12 @@
 let x = '';
 
-for(i = 0; i <= 5 ; i++) {
-    for(j = 1; j <= i; j++) {
+for(let i = 0; i <= 5 ; i++) {
+    for(let j = 1; j <= i; j++) {
        x += '#';
     }
     x += '\n';
 }
 console.log(x);
+
+
+let x = '';
