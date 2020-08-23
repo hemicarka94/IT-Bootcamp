@@ -87,12 +87,16 @@ export function btn() {
     }else{
         console.log('GRESKA')
         const greska= document.createElement('p')
+        greska.id='greska'
         greska.textContent='PROVERITE DA LI JE UNOS ISPRAVAN!'
         div2.appendChild(greska)
     }
     iznosinput.value=''
     opis.value=''
 })
+// setTimeout(function(){
+//     document.getElementById('greska').style.display='hide'
+// }, 3000)
 
 }
 function IzmenaRashoda() {
