@@ -4,7 +4,6 @@ import './index.css';
 import {Header} from './components/Header'
 import { PoslednjaLansiranja } from './components/PastLaunches';
 import { Years } from './components/Select';
-// import { Years } from './components/Select';
 
 const App = (props) => {
 
@@ -13,9 +12,6 @@ const [ispis,setIspis]= useState([])
 const [godine,setGodine] = useState([])
 const [izabrane, setIzabrane] = useState('-')
 
-
-
-// Years()
 
   return(
     <>

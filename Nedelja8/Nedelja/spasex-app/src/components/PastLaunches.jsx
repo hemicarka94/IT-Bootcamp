@@ -12,7 +12,7 @@ export const PoslednjaLansiranja= (props) => {
     return(
        <>
        {props.ispis.map(el=>{
-           if(el.launch_year == props.izabrane){
+           if(el.launch_year === props.izabrane){
            return (
             <div key={el.launch_date_unix}>
             <p>{el.rocket.rocket_name}</p>
@@ -21,7 +21,7 @@ export const PoslednjaLansiranja= (props) => {
             </div> 
            )
            } 
-           else if(props.izabrane == '-'){
+           else if(props.izabrane === '-'){
                return(
                 <div key={el.launch_date_unix}>
                 <p>{el.rocket.rocket_name}</p>
