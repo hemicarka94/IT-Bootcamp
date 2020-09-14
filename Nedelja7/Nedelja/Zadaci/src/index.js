@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 //Zadatak1
 
-const Forma = ({input, button}) => {
+const Forma = () => {
   const [vrednost, setVrednost] = useState('')
  return(
    <>
